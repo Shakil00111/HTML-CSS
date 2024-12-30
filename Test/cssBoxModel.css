@@ -1,4 +1,36 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    border: 7px double red;
+    height: 3rem;
+    align-items: center;
+    text-align: left;
+    width: 85%;
+    margin-top: 2rem;
+    outline: 2px solid purple;
+    outline-offset: -10px;
+}
+
+.container1 {
+    border: 7px double red;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    margin-top: 2em;
+    outline: 2px solid purple;
+    outline-offset: -10px;
+    padding: 1rem;
 }
